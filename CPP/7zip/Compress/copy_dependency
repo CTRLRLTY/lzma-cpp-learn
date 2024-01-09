@@ -1,0 +1,13 @@
+#!/bin/bash
+
+dependencies=$(g++ -MM BranchRegister.cpp | cut -d' ' -f 2- | sed 's/\\//g')
+
+for d in echo $dependencies
+do
+	dotdot_count=$(echo $d | grep -i -o '\.\.' | wc -l)
+        abs_path=$(realpath $d)
+
+	if test $dotdot_count -gt 0; then
+		echo $abs_path | 
+	fi
+done

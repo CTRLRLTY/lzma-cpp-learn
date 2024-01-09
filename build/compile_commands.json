@@ -1,0 +1,296 @@
+[
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/7zCrc.c.o -c /home/cl0t/Downloads/test/C/7zCrc.c",
+  "file": "/home/cl0t/Downloads/test/C/7zCrc.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/7zCrc.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/7zCrcOpt.c.o -c /home/cl0t/Downloads/test/C/7zCrcOpt.c",
+  "file": "/home/cl0t/Downloads/test/C/7zCrcOpt.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/7zCrcOpt.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/Alloc.c.o -c /home/cl0t/Downloads/test/C/Alloc.c",
+  "file": "/home/cl0t/Downloads/test/C/Alloc.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/Alloc.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/Threads.c.o -c /home/cl0t/Downloads/test/C/Threads.c",
+  "file": "/home/cl0t/Downloads/test/C/Threads.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/Threads.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/Lzma2DecMt.c.o -c /home/cl0t/Downloads/test/C/Lzma2DecMt.c",
+  "file": "/home/cl0t/Downloads/test/C/Lzma2DecMt.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/Lzma2DecMt.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/Lzma2Dec.c.o -c /home/cl0t/Downloads/test/C/Lzma2Dec.c",
+  "file": "/home/cl0t/Downloads/test/C/Lzma2Dec.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/Lzma2Dec.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/LzmaDec.c.o -c /home/cl0t/Downloads/test/C/LzmaDec.c",
+  "file": "/home/cl0t/Downloads/test/C/LzmaDec.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/LzmaDec.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/MtDec.c.o -c /home/cl0t/Downloads/test/C/MtDec.c",
+  "file": "/home/cl0t/Downloads/test/C/MtDec.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/MtDec.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/MtCoder.c.o -c /home/cl0t/Downloads/test/C/MtCoder.c",
+  "file": "/home/cl0t/Downloads/test/C/MtCoder.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/MtCoder.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/7zStream.c.o -c /home/cl0t/Downloads/test/C/7zStream.c",
+  "file": "/home/cl0t/Downloads/test/C/7zStream.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/7zStream.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/Lzma2Enc.c.o -c /home/cl0t/Downloads/test/C/Lzma2Enc.c",
+  "file": "/home/cl0t/Downloads/test/C/Lzma2Enc.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/Lzma2Enc.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/LzmaEnc.c.o -c /home/cl0t/Downloads/test/C/LzmaEnc.c",
+  "file": "/home/cl0t/Downloads/test/C/LzmaEnc.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/LzmaEnc.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/LzFind.c.o -c /home/cl0t/Downloads/test/C/LzFind.c",
+  "file": "/home/cl0t/Downloads/test/C/LzFind.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/LzFind.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/LzFindMt.c.o -c /home/cl0t/Downloads/test/C/LzFindMt.c",
+  "file": "/home/cl0t/Downloads/test/C/LzFindMt.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/LzFindMt.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/CpuArch.c.o -c /home/cl0t/Downloads/test/C/CpuArch.c",
+  "file": "/home/cl0t/Downloads/test/C/CpuArch.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/CpuArch.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/cc -gdwarf -g3 -o CMakeFiles/lzma_sdk.dir/C/LzFindOpt.c.o -c /home/cl0t/Downloads/test/C/LzFindOpt.c",
+  "file": "/home/cl0t/Downloads/test/C/LzFindOpt.c",
+  "output": "CMakeFiles/lzma_sdk.dir/C/LzFindOpt.c.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Archive/7z/7zIn.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Archive/7z/7zIn.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Archive/7z/7zIn.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Archive/7z/7zIn.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Archive/7z/7zDecode.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Archive/7z/7zDecode.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Archive/7z/7zDecode.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Archive/7z/7zDecode.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Archive/Common/CoderMixer2.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Archive/Common/CoderMixer2.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Archive/Common/CoderMixer2.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Archive/Common/CoderMixer2.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/FileStreams.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/FileStreams.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/FileStreams.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/FileStreams.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/UniqBlocks.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/UniqBlocks.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/UniqBlocks.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/UniqBlocks.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/StreamUtils.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/StreamUtils.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/StreamUtils.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/StreamUtils.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/StreamObjects.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/StreamObjects.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/StreamObjects.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/StreamObjects.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/CreateCoder.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/CreateCoder.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/CreateCoder.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/CreateCoder.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/LimitedStreams.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/LimitedStreams.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/LimitedStreams.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/LimitedStreams.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/StreamBinder.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/StreamBinder.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/StreamBinder.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/StreamBinder.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/VirtThread.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/VirtThread.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/VirtThread.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/VirtThread.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/FilterCoder.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/FilterCoder.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/FilterCoder.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/FilterCoder.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/CWrappers.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Common/CWrappers.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Common/CWrappers.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Common/CWrappers.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/Lzma2Register.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Compress/Lzma2Register.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Compress/Lzma2Register.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/Lzma2Register.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/LzmaRegister.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Compress/LzmaRegister.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Compress/LzmaRegister.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/LzmaRegister.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/Lzma2Decoder.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Compress/Lzma2Decoder.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Compress/Lzma2Decoder.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/Lzma2Decoder.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/Lzma2Encoder.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Compress/Lzma2Encoder.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Compress/Lzma2Encoder.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/Lzma2Encoder.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/LzmaDecoder.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Compress/LzmaDecoder.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Compress/LzmaDecoder.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/LzmaDecoder.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/LzmaEncoder.cpp.o -c /home/cl0t/Downloads/test/CPP/7zip/Compress/LzmaEncoder.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/7zip/Compress/LzmaEncoder.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/7zip/Compress/LzmaEncoder.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Common/MyWindows.cpp.o -c /home/cl0t/Downloads/test/CPP/Common/MyWindows.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Common/MyWindows.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Common/MyWindows.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Common/MyVector.cpp.o -c /home/cl0t/Downloads/test/CPP/Common/MyVector.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Common/MyVector.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Common/MyVector.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Common/MyString.cpp.o -c /home/cl0t/Downloads/test/CPP/Common/MyString.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Common/MyString.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Common/MyString.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Common/NewHandler.cpp.o -c /home/cl0t/Downloads/test/CPP/Common/NewHandler.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Common/NewHandler.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Common/NewHandler.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Common/StringConvert.cpp.o -c /home/cl0t/Downloads/test/CPP/Common/StringConvert.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Common/StringConvert.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Common/StringConvert.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Common/UTFConvert.cpp.o -c /home/cl0t/Downloads/test/CPP/Common/UTFConvert.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Common/UTFConvert.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Common/UTFConvert.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Common/IntToString.cpp.o -c /home/cl0t/Downloads/test/CPP/Common/IntToString.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Common/IntToString.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Common/IntToString.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Windows/FileFind.cpp.o -c /home/cl0t/Downloads/test/CPP/Windows/FileFind.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Windows/FileFind.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Windows/FileFind.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Windows/FileName.cpp.o -c /home/cl0t/Downloads/test/CPP/Windows/FileName.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Windows/FileName.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Windows/FileName.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Windows/FileIO.cpp.o -c /home/cl0t/Downloads/test/CPP/Windows/FileIO.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Windows/FileIO.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Windows/FileIO.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Windows/TimeUtils.cpp.o -c /home/cl0t/Downloads/test/CPP/Windows/TimeUtils.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Windows/TimeUtils.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Windows/TimeUtils.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Windows/PropVariant.cpp.o -c /home/cl0t/Downloads/test/CPP/Windows/PropVariant.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Windows/PropVariant.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Windows/PropVariant.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/lzma_sdk.dir/CPP/Windows/FileDir.cpp.o -c /home/cl0t/Downloads/test/CPP/Windows/FileDir.cpp",
+  "file": "/home/cl0t/Downloads/test/CPP/Windows/FileDir.cpp",
+  "output": "CMakeFiles/lzma_sdk.dir/CPP/Windows/FileDir.cpp.o"
+},
+{
+  "directory": "/home/cl0t/Downloads/test/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/mymain.dir/main.cpp.o -c /home/cl0t/Downloads/test/main.cpp",
+  "file": "/home/cl0t/Downloads/test/main.cpp",
+  "output": "CMakeFiles/mymain.dir/main.cpp.o"
+}
+]

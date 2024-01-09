@@ -1,0 +1,4 @@
+/home/cl0t/Downloads/test/build/CMakeFiles/lzma_sdk.dir
+/home/cl0t/Downloads/test/build/CMakeFiles/mymain.dir
+/home/cl0t/Downloads/test/build/CMakeFiles/edit_cache.dir
+/home/cl0t/Downloads/test/build/CMakeFiles/rebuild_cache.dir

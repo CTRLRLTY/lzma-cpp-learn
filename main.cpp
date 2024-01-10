@@ -4,6 +4,9 @@
 #include "CPP/Common/MyInitGuid.h"
 #include "CPP/7zip/Archive/7z/7zIn.h"
 #include "CPP/7zip/Common/FileStreams.h"
+#include "CPP/7zip/Archive/7z/7zHandler.h"
+#include "CPP/7zip/Archive/IArchive.h"
+
 
 
 
@@ -19,21 +22,25 @@ int main(void)
                 return 1;
         }
 
-        NArchive::N7z::CInArchive archive(true);
-        NArchive::N7z::CDbEx db;
-
+        // NArchive::N7z::CInArchive archive(true);
+        // NArchive::N7z::CDbEx db;
+        CMyComPtr<IInArchive> archive = new NArchive::N7z::CHandler;
+        CMyComPtr<IArchiveOpenCallback> open_callback;
         const UInt64 scanSize = 1 << 23;
 
-        if (archive.Open(fileStream, &scanSize) != S_OK)
-        {
-                std::cerr << "could not open archive" << std::endl;
-                return 1;
-        }
 
-        bool encrypted;
-        bool passwordDefined;
-        UString password;
-        archive.ReadDatabase(db, nullptr, encrypted, passwordDefined, password);
+        archive->Open(file_spec, &scanSize, nullptr);
+
+        // if (archive.Open(fileStream, &scanSize) != S_OK)
+        // {
+        //         std::cerr << "could not open archive" << std::endl;
+        //         return 1;
+        // }
+
+        // bool encrypted;
+        // bool passwordDefined;
+        // UString password;
+        // archive.ReadDatabase(db, nullptr, encrypted, passwordDefined, password);
 
         return 0;
 }

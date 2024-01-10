@@ -35,9 +35,21 @@ target_sources ( lzma_sdk
 
         CPP/7zip/Archive/7z/7zIn.cpp
         CPP/7zip/Archive/7z/7zDecode.cpp
+        CPP/7zip/Archive/7z/7zHandler.cpp
+        CPP/7zip/Archive/7z/7zProperties.cpp
+        CPP/7zip/Archive/7z/7zHandlerOut.cpp
+        CPP/7zip/Archive/7z/7zExtract.cpp
+        CPP/7zip/Archive/7z/7zUpdate.cpp
+        CPP/7zip/Archive/7z/7zOut.cpp
+        CPP/7zip/Archive/7z/7zEncode.cpp 
+        CPP/7zip/Archive/7z/7zFolderInStream.cpp
+        CPP/7zip/Archive/7z/7zHeader.cpp
 
         CPP/7zip/Archive/Common/CoderMixer2.cpp
-
+        CPP/7zip/Archive/Common/HandlerOut.cpp
+        CPP/7zip/Archive/Common/ItemNameUtils.cpp
+        
+        
         CPP/7zip/Common/FileStreams.cpp 
         CPP/7zip/Common/UniqBlocks.cpp
         CPP/7zip/Common/StreamUtils.cpp
@@ -48,6 +60,12 @@ target_sources ( lzma_sdk
         CPP/7zip/Common/VirtThread.cpp
         CPP/7zip/Common/FilterCoder.cpp
         CPP/7zip/Common/CWrappers.cpp
+        CPP/7zip/Common/PropId.cpp    
+        CPP/7zip/Common/MethodProps.cpp
+        CPP/7zip/Common/ProgressUtils.cpp
+        CPP/7zip/Common/OutBuffer.cpp
+        CPP/7zip/Common/InOutTempBuffer.cpp
+        
         
         CPP/7zip/Compress/Lzma2Register.cpp
         CPP/7zip/Compress/LzmaRegister.cpp
@@ -55,6 +73,7 @@ target_sources ( lzma_sdk
         CPP/7zip/Compress/Lzma2Encoder.cpp
         CPP/7zip/Compress/LzmaDecoder.cpp
         CPP/7zip/Compress/LzmaEncoder.cpp
+        CPP/7zip/Compress/CopyCoder.cpp
         
         CPP/Common/MyWindows.cpp
         CPP/Common/MyVector.cpp
@@ -63,6 +82,8 @@ target_sources ( lzma_sdk
         CPP/Common/StringConvert.cpp
         CPP/Common/UTFConvert.cpp
         CPP/Common/IntToString.cpp
+        CPP/Common/StringToInt.cpp
+        CPP/Common/Wildcard.cpp
 
         CPP/Windows/FileFind.cpp
         CPP/Windows/FileName.cpp
@@ -70,6 +91,8 @@ target_sources ( lzma_sdk
         CPP/Windows/TimeUtils.cpp
         CPP/Windows/PropVariant.cpp
         CPP/Windows/FileDir.cpp
+        CPP/Windows/System.cpp
+        
 
         PUBLIC
         C/Compiler.h
@@ -79,12 +102,22 @@ target_sources ( lzma_sdk
 
         CPP/7zip/Archive/7z/7zIn.h
         CPP/7zip/Archive/7z/7zDecode.h
-        
-        CPP/7zip/Archive/Common/CoderMixer2.h
+        CPP/7zip/Archive/7z/7zHandler.h
+        CPP/7zip/Archive/7z/7zUpdate.h
+        CPP/7zip/Archive/7z/7zEncode.h
+        CPP/7zip/Archive/7z/7zFolderInStream.h
+        CPP/7zip/Archive/7z/7zHeader.h
 
-        CPP/7zip/PropID.h
+        CPP/7zip/Archive/Common/CoderMixer2.h
+        CPP/7zip/Archive/Common/HandlerOut.h
+        CPP/7zip/Archive/Common/ItemNameUtils.h
+       
         CPP/7zip/IDecl.h
         CPP/7zip/IStream.h
+        CPP/7zip/PropID.h
+
+        CPP/7zip/Compress/CopyCoder.h
+        
 
         CPP/7zip/Common/FileStreams.h
         CPP/7zip/Common/UniqBlocks.h
@@ -95,6 +128,11 @@ target_sources ( lzma_sdk
         CPP/7zip/Common/StreamBinder.h
         CPP/7zip/Common/VirtThread.h
         CPP/7zip/Common/FilterCoder.h
+        CPP/7zip/Common/MethodProps.h
+        CPP/7zip/Common/ProgressUtils.h
+        CPP/7zip/Common/OutBuffer.h
+        CPP/7zip/Common/InOutTempBuffer.h
+        
         
         CPP/Common/MyInitGuid.h
         CPP/Common/Common.h
@@ -107,6 +145,8 @@ target_sources ( lzma_sdk
         CPP/Common/MyBuffer.h
         CPP/Common/Defs.h
         CPP/Common/MyUnknown.h
+        CPP/Common/StringToInt.h
+        CPP/Common/Wildcard.h
 
         CPP/Windows/FileFind.h
         CPP/Windows/Defs.h

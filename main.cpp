@@ -7,6 +7,42 @@
 #include "CPP/7zip/Archive/7z/7zHandler.h"
 #include "CPP/7zip/Archive/IArchive.h"
 
+class CArchiveOpenCallback Z7_final:
+  public IArchiveOpenCallback,
+  public ICryptoGetTextPassword,
+  public CMyUnknownImp
+{
+  Z7_IFACES_IMP_UNK_2(IArchiveOpenCallback, ICryptoGetTextPassword)
+public:
+
+  bool PasswordIsDefined;
+  UString Password;
+
+  CArchiveOpenCallback() : PasswordIsDefined(false) {}
+};
+
+Z7_COM7F_IMF(CArchiveOpenCallback::SetTotal(const UInt64 * /* files */, const UInt64 * /* bytes */))
+{
+  return S_OK;
+}
+
+Z7_COM7F_IMF(CArchiveOpenCallback::SetCompleted(const UInt64 * /* files */, const UInt64 * /* bytes */))
+{
+        return S_OK;
+}
+  
+Z7_COM7F_IMF(CArchiveOpenCallback::CryptoGetTextPassword(BSTR *password))
+{
+        if (!PasswordIsDefined)
+         {     
+        // You can ask real password here from user
+        // Password = GetPassword(OutStream);
+        // PasswordIsDefined = true;
+                std::cerr << "password not defined" << std::endl;
+                return E_ABORT;
+        }
+  return StringToBstr(Password, password);
+}
 
 
 
@@ -25,11 +61,13 @@ int main(void)
         // NArchive::N7z::CInArchive archive(true);
         // NArchive::N7z::CDbEx db;
         CMyComPtr<IInArchive> archive = new NArchive::N7z::CHandler;
-        CMyComPtr<IArchiveOpenCallback> open_callback;
+        CMyComPtr<IArchiveOpenCallback> open_callback = new CArchiveOpenCallback;
         const UInt64 scanSize = 1 << 23;
+        UInt64 p = 3;
+        open_callback->SetCompleted(&p, &p);
 
 
-        archive->Open(file_spec, &scanSize, nullptr);
+        archive->Open(file_spec, &scanSize, open_callback);
 
         // if (archive.Open(fileStream, &scanSize) != S_OK)
         // {
